@@ -1,0 +1,20 @@
+.input-search {
+
+    height: 40px;
+    width: 250px;
+    background-image: url('../../assets/icon/search.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 16px;
+    background-size: 16px;
+    border: 1px solid #bbbbbb;
+    padding-left: 40px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-search:focus{
+    border: 1px solid;
+    outline: none;
+    border-color: #019160;
+}

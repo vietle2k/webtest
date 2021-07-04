@@ -1,0 +1,192 @@
+.btn-default {
+    display: inline-block;
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    font-style: normal;
+    padding-left: 40px;
+    padding-right: 16px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-image: url('../../assets/icon/add.png');
+    background-position-y: center;
+    background-position-x: 16px;
+    background-repeat: no-repeat;
+}
+
+    .btn-default:hover {
+        background-color: #2FBE8E;
+    }
+
+    .btn-default:active {
+        background-color: #01B075;
+    }
+
+.btn-refresh {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 24px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    background-image: url('../../assets/icon/refresh.png');
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.btn-delete{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 64px;
+    margin-right: 8px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    background-image: url('../../assets/icon/x.svg');
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.dialog_header .button_X {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url('../../assets/icon/x.svg');
+    background-repeat:no-repeat;
+    background-size: 24px;
+    background-position: center;
+    border: none;
+    outline: none;
+    border-radius: 0px 4px 0px 4px;
+    background-color: white;
+}
+
+.button_X:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.button_X:active {
+    background-color: #e5e5e5;
+    border: 1px solid;
+}
+
+.button_avatar {
+    height: 160px;
+    width: 160px;
+    background-image: url('../../assets/img/default-avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #dedede;
+}
+
+.button_avatar:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.button_cancel {
+        position: absolute;
+        right: 132px;
+        height: 40px;
+        width: 100px;
+        font-size: 13px;
+        border-radius: 4px;
+        border: #bbbbbb;
+        padding-left: 16px;
+        padding-right: 16px;
+}
+    
+.button_cancel:hover {
+        background-color: #E9EBEE;
+        cursor: pointer;
+}
+    
+.button_cancel:active {
+            background-color: #01B075;
+}
+
+        
+#button_save {
+            position: absolute;
+            right: 24px;
+            height: 40px;
+            width: 100px;
+            font-size: 13px;
+            border-radius: 4px;
+            border: #bbbbbb; 
+            background-color: #019160;
+            color: #ffffff;
+            padding-left: 16px;
+            padding-right: 16px;
+}
+        
+#button_save:hover {
+                background-color: #2FBE8E;
+                cursor: pointer;
+}
+        
+#button_save:active {
+                background-color: #01B075;
+}
+
+
+#button_confirm {
+    position: absolute;
+    right: 24px;
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: #bbbbbb;
+    background-color: #F65454;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+    #button_save:hover {
+        background-color: #2FBE8E;
+        cursor: pointer;
+    }
+
+    #button_save:active {
+        background-color: #01B075;
+    }
+
+
+.button_page {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #e9ebee;
+}
+
+.button_delete_x {
+    height: 18px;
+    width: 15px;
+    border: none;
+    outline:none;
+    background-image: url('../../assets/icon/x.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button_delete_x:active {
+    border-color: #E74C3C;
+    background-color: #E74C3C;
+}
